@@ -1,7 +1,12 @@
 import java.util.Scanner;
 /**
- * Class Microwave
- */
+*
+* class Microwave
+*
+* @author  Andrew Kuekam
+* @version 1.0
+* @since   2020-18-09
+*/
   public class Microwave {
     public static void main(String[] args) {
       
@@ -12,7 +17,6 @@ import java.util.Scanner;
       //Declare the Strins and double
       String userChoose;
       double userQuantity;
-        
        //
       userChoose = userInput.next();
       System.out.println("***userChoose = " + userChoose);
@@ -82,10 +86,6 @@ import java.util.Scanner;
             else {
               System.out.println( " Error" );
             }
-            
           }
-        
-      
     } 
   }  
-    
